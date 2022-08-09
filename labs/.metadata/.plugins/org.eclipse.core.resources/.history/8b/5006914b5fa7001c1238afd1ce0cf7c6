@@ -1,0 +1,20 @@
+
+public class Chicken extends Bird{
+	
+	
+	public Chicken(String name,double weight,double altitude) {
+		super(name,weight,altitude);
+	}
+	
+	public Chicken(String name) {
+		this(name,5.0,0);
+	}
+	
+	public static void testChicken() {
+		Chicken ch1 = new Chicken("guoguo",5.0,0);
+		System.out.println(ch1.getName()=="guoguo");
+		System.out.println(ch1.getWeight()==4.0);
+		System.out.println(ch1.getWeight()==5.0);
+		System.out.println(ch1.getAltitude()==0);
+	}
+}

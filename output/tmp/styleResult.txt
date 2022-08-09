@@ -1,0 +1,936 @@
+
+>>> Code style feedback for question 4: done..
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:12:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:12:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:14: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:17: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:18:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:18:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:20: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:21:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:21:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Door.java:23: 'METHOD_DEF' should be separated from previous statement.
+Audit done.
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:12:28: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:12:69: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:13:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:13:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:15:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:15:25: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:15:26: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:15:30: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:17:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:19: else child at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:19:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:20: for at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:20:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:20:23: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:20:24: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:20:25: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:20:38: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:21: for child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:21:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:21:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:21:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:22: for rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:23: else rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:25: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:26: for at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:26:8: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:27: if at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:27:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:27:22: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:27:24: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:27:31: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:29: if child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:29: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:29:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:29:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:30: if rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:30:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:31: else at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:32: else child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:32: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:32:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:32:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:33: else rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:34: for rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:36: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:37:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:37:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:38:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:39:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:39:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:39:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:45: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:46: if at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:46:12: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:46:14: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:46:16: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:46:40: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:46:42: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:46:57: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:47: if child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:47:30: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:47:31: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:47:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:48: if rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:48:10: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:49: else at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:50: else child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:50:47: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:50:48: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:50:58: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:50:78: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:51: else rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:54: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:55:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:55:26: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:57:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:57:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:57:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:58:27: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:59:13: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:65: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:66:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:66:13: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:66:15: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:66:39: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:66:41: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:67:29: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:67:30: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:67:32: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:67:33: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:69:10: 'else' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:69:10: '}' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:70:46: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:70:47: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:70:57: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:73: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:74:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:74:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:74:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:74:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:74:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:74:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:74:36: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:75:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:75:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:85:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:91:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:103:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:108:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:121:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question4/src/Car.java:128:16: 'catch' is not followed by whitespace.
+Audit done.
+
+>>> Code style feedback for question 3: done..
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:12:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:12:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:14: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:17: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:18:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:18:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:20: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:21:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:21:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Door.java:23: 'METHOD_DEF' should be separated from previous statement.
+Audit done.
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:12:28: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:12:69: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:13:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:13:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:15:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:15:25: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:15:26: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:15:30: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:17:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:19: else child at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:19:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:20: for at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:20:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:20:23: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:20:24: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:20:25: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:20:38: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:21: for child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:21:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:21:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:21:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:22: for rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:23: else rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:25: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:26: for at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:26:8: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:27: if at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:27:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:27:22: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:27:24: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:27:31: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:29: if child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:29: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:29:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:29:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:30: if rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:30:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:31: else at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:32: else child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:32: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:32:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:32:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:33: else rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:34: for rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:36: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:37:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:37:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:38:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:39:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:39:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:39:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:45: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:46: if at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:46:12: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:46:14: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:46:16: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:46:40: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:46:42: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:46:57: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:47: if child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:47:30: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:47:31: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:47:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:48: if rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:48:10: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:49: else at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:50: else child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:50:47: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:50:48: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:50:58: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:50:78: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:51: else rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:54: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:55:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:55:26: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:57:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:57:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:57:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:58:27: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:59:13: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:65: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:66:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:66:13: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:66:15: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:66:39: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:66:41: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:67:29: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:67:30: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:67:32: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:67:33: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:69:10: 'else' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:69:10: '}' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:70:46: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:70:47: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:70:57: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:73: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:76:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:82:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:94:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:99:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:112:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question3/src/Car.java:119:16: 'catch' is not followed by whitespace.
+Audit done.
+
+>>> Code style feedback for question 2: done..
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:12:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:12:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:14: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:17: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:18:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:18:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:20: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:21:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:21:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Door.java:23: 'METHOD_DEF' should be separated from previous statement.
+Audit done.
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:12:28: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:12:69: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:13:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:13:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:15:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:15:25: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:15:26: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:15:30: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:17:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:19: else child at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:19:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:20: for at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:20:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:20:23: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:20:24: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:20:25: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:20:38: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:21: for child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:21:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:21:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:21:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:22: for rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:23: else rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:25: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:26: for at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:26:8: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:27: if at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:27:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:27:22: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:27:24: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:27:31: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:29: if child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:29: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:29:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:29:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:30: if rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:30:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:31: else at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:32: else child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:32: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:32:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:32:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:33: else rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:34: for rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:36: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:37:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:37:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:38:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:39:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:39:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:39:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:45: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:46: if at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:46:12: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:46:14: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:46:16: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:46:40: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:46:42: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:46:57: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:47: if child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:47:30: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:47:31: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:47:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:48: if rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:48:10: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:49: else at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:50: else child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:50:47: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:50:48: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:50:58: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:50:78: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:51: else rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:54: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:55:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:55:26: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:57:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:57:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:57:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:58:27: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:59:13: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:65: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:68:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:74:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:86:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question2/src/Car.java:91:16: 'catch' is not followed by whitespace.
+Audit done.
+
+>>> Code style feedback for question 5: done..
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:12:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:12:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:14: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:17: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:18:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:18:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:20: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:21:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:21:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Door.java:23: 'METHOD_DEF' should be separated from previous statement.
+Audit done.
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:12:28: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:12:69: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:13:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:13:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:15:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:15:25: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:15:26: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:15:30: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:17:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:19: else child at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:19:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:20: for at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:20:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:20:23: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:20:24: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:20:25: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:20:38: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:21: for child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:21:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:21:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:21:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:22: for rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:23: else rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:25: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:26: for at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:26:8: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:27: if at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:27:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:27:22: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:27:24: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:27:31: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:29: if child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:29: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:29:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:29:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:30: if rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:30:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:31: else at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:32: else child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:32: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:32:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:32:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:33: else rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:34: for rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:36: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:37:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:37:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:38:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:39:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:39:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:39:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:45: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:46: if at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:46:12: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:46:14: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:46:16: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:46:40: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:46:42: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:46:57: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:47: if child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:47:30: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:47:31: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:47:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:48: if rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:48:10: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:49: else at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:50: else child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:50:47: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:50:48: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:50:58: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:50:78: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:51: else rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:54: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:55:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:55:26: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:57:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:57:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:57:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:58:27: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:59:13: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:65: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:66:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:66:13: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:66:15: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:66:39: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:66:41: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:67:29: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:67:30: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:67:32: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:67:33: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:69:10: 'else' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:69:10: '}' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:70:46: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:70:47: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:70:57: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:73: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:74:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:74:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:74:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:74:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:74:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:74:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:74:36: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:75:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:75:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:75:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:83:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:83:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:83:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:83:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:83:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:83:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:83:43: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:84:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:84:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:87: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:90:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:96:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:108:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:113:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:126:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:133:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question5/src/Car.java:153:16: 'catch' is not followed by whitespace.
+Audit done.
+
+>>> Code style feedback for question 7: done..
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:12:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:12:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:14: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:17: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:18:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:18:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:20: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:21:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:21:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Door.java:23: 'METHOD_DEF' should be separated from previous statement.
+Audit done.
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:10: 'CLASS_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:13:28: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:13:69: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:14:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:14:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:16:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:16:25: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:16:26: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:16:30: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:18:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:20: else child at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:20:39: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:21: for at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:21:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:21:23: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:21:24: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:21:25: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:21:38: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:22: for child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:22: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:22:35: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:23: for rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:24: else rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:26: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:27: for at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:27:8: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:28: if at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:28:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:28:22: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:28:24: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:28:31: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:30: if child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:30: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:30:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:30:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:31: if rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:31:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:32: else at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:33: else child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:33: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:33:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:33:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:34: else rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:35: for rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:37: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:38:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:38:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:39:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:40:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:40:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:40:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:46: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:47: if at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:47:12: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:47:14: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:47:16: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:47:40: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:47:42: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:47:57: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:48: if child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:48:34: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:48:35: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:48:45: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:49: if rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:49:10: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:50: else at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:51: else child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:51:47: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:51:48: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:51:58: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:51:78: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:52: else rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:55: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:56:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:56:26: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:58:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:58:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:58:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:59:27: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:60:13: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:66: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:67:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:67:13: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:67:15: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:67:39: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:67:41: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:68:33: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:68:34: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:70:10: 'else' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:70:10: '}' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:71:46: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:71:47: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:71:57: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:74: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:75:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:75:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:75:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:75:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:75:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:75:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:75:36: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:76:25: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:76:37: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:84:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:84:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:84:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:84:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:84:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:84:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:84:43: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:85:25: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:88: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:92: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:92: method def modifier at indentation level 0 not at correct indentation, 4
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:96:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:102:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:114:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:119:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:132:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:138:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:157:10: 'catch' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:157:10: '}' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question7/src/Car.java:157:15: 'catch' is not followed by whitespace.
+Audit done.
+
+>>> Code style feedback for question 6: done..
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:12:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:12:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:14: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:17: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:18:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:18:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:20: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:21:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:21:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Door.java:23: 'METHOD_DEF' should be separated from previous statement.
+Audit done.
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:12:28: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:12:69: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:13:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:13:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:15:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:15:25: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:15:26: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:15:30: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:17:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:19: else child at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:19:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:20: for at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:20:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:20:23: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:20:24: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:20:25: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:20:38: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:21: for child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:21:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:21:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:21:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:22: for rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:23: else rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:25: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:26: for at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:26:8: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:27: if at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:27:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:27:22: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:27:24: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:27:31: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:29: if child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:29: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:29:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:29:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:30: if rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:30:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:31: else at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:32: else child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:32: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:32:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:32:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:33: else rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:34: for rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:36: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:37:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:37:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:38:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:39:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:39:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:39:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:45: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:46: if at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:46:12: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:46:14: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:46:16: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:46:40: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:46:42: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:46:57: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:47: if child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:47:30: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:47:31: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:47:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:48: if rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:48:10: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:49: else at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:50: else child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:50:47: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:50:48: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:50:58: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:50:78: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:51: else rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:54: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:55:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:55:26: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:57:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:57:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:57:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:58:27: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:59:13: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:65: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:66:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:66:13: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:66:15: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:66:39: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:66:41: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:67:29: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:67:30: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:67:32: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:67:33: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:69:10: 'else' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:69:10: '}' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:70:46: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:70:47: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:70:57: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:73: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:74:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:74:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:74:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:74:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:74:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:74:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:74:36: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:75:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:75:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:75:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:83:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:83:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:83:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:83:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:83:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:83:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:83:43: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:84:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:84:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:87: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:89:17: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:89:40: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:89:41: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:90:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:90:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:90:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:90:21: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:90:22: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:90:23: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:90:36: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:91:24: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:91:25: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:93:33: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:93:34: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:93:36: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:93:37: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:94:33: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:94:34: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:94:36: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:94:37: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:95:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:95:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:97: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:100:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:106:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:118:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:123:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:136:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:143:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question6/src/Car.java:163:16: 'catch' is not followed by whitespace.
+Audit done.
+
+>>> Code style feedback for question 1: done..
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:12:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:12:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:14: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:17: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:18:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:18:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:20: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:21:20: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:21:21: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Door.java:23: 'METHOD_DEF' should be separated from previous statement.
+Audit done.
+
+Starting audit...
+Audit done.
+
+Starting audit...
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:12:28: ',' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:12:69: '{' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:13:18: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:13:19: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:15:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:15:25: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:15:26: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:15:30: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:17:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:19: else child at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:19:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:20: for at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:20:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:20:23: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:20:24: '<' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:20:25: '<' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:20:38: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:21: for child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:21:21: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:21:22: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:21:33: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:22: for rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:23: else rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:25: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:26: for at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:26:8: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:27: if at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:27:11: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:27:22: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:27:24: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:27:31: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:28: if child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:28: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:28:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:28:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:29: if rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:29:9: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:30: else at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:31: else child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:31: method call child at indentation level 12 not at correct indentation, 16
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:31:36: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:31:37: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:32: else rcurly at indentation level 8 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:33: for rcurly at indentation level 4 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:35: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:36:14: '=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:36:15: '=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:37:12: 'for' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:38:15: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:38:26: '==' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:38:28: '==' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:44: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:45: if at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:45:12: 'if' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:45:14: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:45:16: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:45:40: '<=' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:45:42: '<=' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:45:57: '{' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:46: if child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:46:30: '-' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:46:31: '-' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:46:41: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:47: if rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:47:10: '}' should be on the same line.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:48: else at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:49: else child at indentation level 13 not at correct indentation, 12
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:49:47: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:49:48: '+' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:49:58: '+' is not preceded with whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:49:78: ';' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:50: else rcurly at indentation level 9 not at correct indentation, 8
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:53: 'METHOD_DEF' should be separated from previous statement.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:56:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:62:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:69:16: 'catch' is not followed by whitespace.
+/Users/yuchao/Documents/UIC-TA/sem202202/autograder/Java/labs/lab9_r130026218/Lab9_r130026218/Question1/src/Car.java:74:16: 'catch' is not followed by whitespace.
+Audit done.
+

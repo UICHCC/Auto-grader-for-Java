@@ -1,0 +1,11 @@
+
+public class Dog extends Animal{
+	
+	public Dog(String name, double weight) {
+		super(name, weight);
+	}
+	
+	public void feed() {
+		this.setWeight(this.getWeight()+1);
+	}
+}

@@ -1,0 +1,297 @@
+#!/bin/bash
+#
+# - # - # - # - # - # - # - # - # - # - # - #
+# autograder for UIC CST (java version)
+# author: Yuchao GAO
+# v1.0 on 2022.4.12(Tuesday)
+# - # - # - # - # - # - # - # - # - # - # - #
+#
+# - "labs" folder: codes of students downloaded from iSpace
+# - "helper" folder: standard test codes
+# - "grade" folder: backup final gradebook sheet
+# - "sample" folder: correct answers to set defaults 
+#
+# check parameters, the format should be like lab3, hw2, proj1
+#
+if [ $# == 0 ]; then
+	# if number of parameters is 0, EXIT with 1
+	echo "No assessment is indicated."
+	exit 1
+fi
+assessment="$1"
+
+# default paths
+currentMainPath=$(pwd)
+studentLabsPath=$(pwd)/labs
+gradebookPath=$(pwd)/grade_OOP_$assessment.csv
+outputPath=$(pwd)/output
+outputAssesPath=$outputPath/$assessment
+outputTmpPath=$outputPath/tmp
+trueResultPath=$outputTmpPath/trueResult
+samplePath=$(pwd)/sampleAnswer
+answerPath="$studentLabsPath/AAAnswer$assessment"
+helperPath=$(pwd)/helper
+tmpOutputPath=$outputTmpPath/tmpoutput
+checkstylePath=$helperPath/checkstyle
+styleResultPath=$outputTmpPath/styleResult.txt
+checkstyleXML=uic_java_v0.xml
+startGradeName="Start.java"
+
+# grade distribution
+fullFuncGrade=70
+fullStructGrade=10
+fullCommentsGrade=10
+fullStyleGrade=10
+
+# defaults
+qNum=0  # number of questions
+trueFullCount=0  # count of "true" for a full mark
+structFullCount=0  # count of java files for a full mark
+commentsFullCount=0  # count of comments for a full mark
+defaultsFlag=0  # shows if all defaults setup successfully
+
+# set defaults above from sample answers
+if [ $defaultsFlag == 0 ]; then
+	if [ ! -d $answerPath ]; then
+		cp -r -f $samplePath/$assessment $studentLabsPath
+		mv -f $studentLabsPath/$assessment $answerPath
+	fi
+fi
+
+# create gradebook file, make an empty new csv sheet
+echo "Student ID,Name,$assessment,Functional,Structure,Comments,Code Style,Feedback" > $gradebookPath
+
+# compile and run students codes
+cd $studentLabsPath # goto students lab folder
+for stuIDfileName in $(ls|tr " " "|"); do # loop all file folders named student id, replace 'space' with 'vertical line', supposing no student name their filename with a   vertical line'
+	fileType=${stuIDfileName##*.}  # get file type name
+	studentFile="${stuIDfileName//|/ }"  # replace to get real filename
+	studentName=${studentFile%%_*}  # get student name 
+	studentFileName=${stuIDfileName%%.*}  # filename without type name
+	studentID=${studentFileName: 0-10:10}  # get student ID
+	studentFolderName=${assessment}_$studentID  # get file folder name
+	studentOutputPath=$outputAssesPath/$studentID.txt
+	if [ ! -d $outputAssesPath ]; then
+		mkdir $outputAssesPath
+	fi
+	
+	echo "> > > > > > > > extracting $studentID $studentName > > > > > > >"
+	
+	# unarchive all kinds of files
+	# $studentFile must be surrounded with double quotation mark in case the filename contains space
+	if [ $fileType == zip ]; then 
+		unzip -o "$studentFile" -d $studentFolderName > $tmpOutputPath # -o directly overwrite, 
+	elif [ $fileType == rar ]; then
+		mkdir $studentFolderName
+		unrar x -o+ "$studentFile" $studentFolderName > $tmpOutputPath # -o+ directly overwrite, x means unrar files with absolute paths
+	elif [ $fileType == 7z ]; then
+		7z x "$studentFile" -o$studentFolderName > $tmpOutputPath  # -o unarchive to specific directory, x means unarchive
+	elif [ $defaultsFlag == 0 ]; then
+		studentFolderName=$answerPath
+	else
+		continue
+	fi
+	
+	echo " > > > > > > > > > grading $studentID $studentName > > > > > > >"
+	# initialize grades
+	grade=0  # basic grade
+	# reset true result document for functional test grade
+	echo "" > $trueResultPath
+	# reset style result document for checking code style
+	echo "" > $styleResultPath
+	# reset output feedback document
+	echo "$studentID $studentName" > $studentOutputPath
+	echo "" >> $studentOutputPath
+	
+	javaFileCounter=0  # number of java files, for structure grade
+	commentsCounter=0  # for comments grade
+	styleErrorCounter=0  # number of style errors, for code style grade
+	feedback=""  # feedback for students
+	
+	quesitonPaths=()  # path list of java files to be compiled
+	IFS=$'\n'  # set end character not to a 'space' but a 'new line', this will let command read file whose name conatins spaces
+	currentQ=0  # question index to limit the total question path number, in case student put several same codes to get more 'true' count
+	for n in `find $studentFolderName -name "*.java"`;do
+		if [[ "$n" =~ "_MACOSX" ]]; then  # ignore hidden files from MACOSX
+			continue
+		fi
+		currentPath=${n%/*}  # get path of each java file
+		if [[ ${quesitonPaths[@]} =~ (^|[[:space:]])$currentPath($|[[:space:]]) ]]; then
+			continue  # check if a variable exists in a list, if included do nothing
+		elif [ $defaultsFlag == 0 ]; then
+			quesitonPaths+=($currentPath)  # add to path list
+			qNum=`expr $qNum + 1`
+			qNum=${qNum// /}  # remove spaces
+		elif [ $currentQ -lt $qNum ]; then  # only add when question list is not full
+			quesitonPaths+=($currentPath)  # add to path list
+			currentQ=`expr $currentQ + 1`  # update question index
+		fi
+	done
+	
+	# visit each question folder
+	for qpath in ${quesitonPaths[@]}; do
+		cd $qpath
+		rm -f Start.java
+		rm -f Start.class
+		rm -f StartGrading.java
+		rm -f StartGrading.class
+		
+		qNo=${qpath##*'uestion'}
+		qNo=${qNo%%/*}
+		qNo=${qNo:0-1}  # get question number
+		
+		echo ">>> Code style feedback for question $qNo: done.." >> $styleResultPath
+		echo "" >> $styleResultPath
+		
+		# remove non utf-8 chars in each java file
+		for javafile in `find . -name "*.java"`;do
+			if [[ "$javafile" =~ "._" ]]; then  # ignore hidden useless java files
+				continue
+			fi
+			# get java file name
+			javeFileName=${javafile##*/}
+			javaClassName=${javeFileName%.*}
+			
+			# count for comments
+			commentsCounter0=`grep -o "//" $javeFileName | wc -l`
+			commentsCounter0=${commentsCounter0// /}  # remove spaces
+			commentsCounter1=`grep -o "/*" $javeFileName | wc -l`
+			commentsCounter1=${commentsCounter1// /}  # remove spaces
+			commentsCounter=`expr $commentsCounter + $commentsCounter0`
+			commentsCounter=`expr $commentsCounter + $commentsCounter1`
+			
+			# check code style
+			styleResult=`java -jar $checkstylePath/checkstyle-*-all.jar -c $checkstylePath/$checkstyleXML $javeFileName`
+			echo "$styleResult" >> $styleResultPath
+			echo "" >> $styleResultPath
+			styleErrorCounter=`grep -o .java $styleResultPath | wc -l`  # count total number of code style errors
+			styleErrorCounter=${styleErrorCounter// /}  # remove spaces
+			
+			# remove all non utf-8 chars
+			iconv -f utf-8 -t utf-8 -c $javeFileName > tmp$javeFileName
+			mv -f tmp$javeFileName $javeFileName
+			
+			# force copy test codes to question src folder
+			gradeFile=$helperPath/$assessment/q$qNo/$javaClassName$startGradeName
+			if [ -f $gradeFile ]; then
+				cp -f $gradeFile .
+			fi
+		done
+				
+		# compilation in each question folder
+		for javafile in `find . -name "*.java"`;do
+			if [[ "$javafile" =~ "._" ]]; then  # ignore hidden useless java files
+				continue
+			fi
+			# get java file name
+			javeFileName=${javafile##*/}
+			javaClassName=${javeFileName%.*}
+			
+			# .class file in the same folder as .java should be removed
+			javaClassFileName="$javaClassName.class"
+			if [ -f $javaClassFileName ];then
+				rm -f $javaClassFileName
+			fi
+			
+			echo ">>> Compilation feedback for question $qNo $javeFileName: done.." >> $studentOutputPath
+			echo "" >> $studentOutputPath
+			# compile java files and save stdout&stderr into textfile
+			# could use "-encoding utf-8" to compile in utf-8
+			javac $javeFileName >> $studentOutputPath 2>&1
+			if [ ! -f $javaClassFileName ];then
+				# .class file not existed, which means compilation failed
+				feedback="$feedback Question$qNo class $javaClassName compilation error."
+			else
+				javaFileCounter=`expr $javaFileCounter + 1`
+			fi
+		done
+		
+		# run and grade for each java file in question folder
+		for javafile in `find . -name "*.class"`;do
+			javeFileName=${javafile##*/}  # get java class file name
+			javaClassName=${javeFileName%.*}
+			if [ ${#javaClassName} -gt 5 ] && [ ${javaClassName: 0-5} == "Start" ]; then
+				oldTrueCounter=`grep -o true $trueResultPath | wc -l`
+				oldTrueCounter=${oldTrueCounter// /}
+
+				# run unit tests
+				testResult=`java ${javaClassName}`  # run executable java file
+				echo $testResult >> $trueResultPath  # append trues
+				if [ $defaultsFlag == 0 ]; then
+					continue
+				fi
+				# number of correct test cases feed back 
+				trueCounter=`grep -o true $trueResultPath | wc -l`
+				trueCounter=${trueCounter// /}
+				qTrueCounter=`expr $trueCounter - $oldTrueCounter`
+				echo ">>> Functional test correct cases for question $qNo ${javaClassName%Start*}: $qTrueCounter / $trueFullCount" >> $studentOutputPath
+				echo "" >> $studentOutputPath
+			fi
+		done
+		cd $studentLabsPath  # back to origin directory
+	done
+	unset IFS  # reset end character to a 'space' character
+	
+	trueCounter=`grep -o true $trueResultPath | wc -l`  # count total number of true
+	trueCounter=${trueCounter// /}  # remove spaces
+	echo ">>> Functional test correct cases for $assessment: $trueCounter / $trueFullCount" >> $studentOutputPath
+	echo "" >> $studentOutputPath
+	
+	if [ $defaultsFlag == 0 ]; then
+		trueFullCount=$trueCounter
+		structFullCount=$javaFileCounter
+		commentsFullCount=`expr $commentsCounter / 7`
+		defaultsFlag=1
+	else  # calculate grades
+		# calculate functional test grade
+		funcGrade=`expr $trueCounter \* $fullFuncGrade`
+		funcGrade=`expr $funcGrade / $trueFullCount`  # calculate grade in percentage
+		grade=`expr $grade + $funcGrade`
+		
+		# calculate structure grade
+		structGrade=`expr $javaFileCounter \* $fullStructGrade`
+		structGrade=`expr $structGrade / $structFullCount`
+		if [ $structGrade -lt 1 ]; then
+			structGrade=0
+		fi
+		grade=`expr $grade + $structGrade`
+		
+		# calculate comments grade
+		commentsGrade=$fullCommentsGrade
+		if [ $commentsCounter -lt $commentsFullCount ]; then
+			commentsGrade=`expr $commentsCounter \* $fullCommentsGrade`
+			commentsGrade=`expr $commentsGrade / $commentsFullCount`
+		fi
+		grade=`expr $grade + $commentsGrade`
+		
+		# calculate code style grade
+		styleGrade=0
+		if [ $commentsGrade != 0 ] || [ $funcGrade != 0 ] || [ $structGrade != 0 ]; then
+			styleV=60
+			if [ $styleErrorCounter -lt $styleV ]; then
+				styleCounter=`expr $styleV - $styleErrorCounter`
+				styleGrade=`expr $styleCounter \* $fullStyleGrade`
+				styleGrade=`expr $styleGrade / $styleV`
+			fi
+		fi
+		grade=`expr $grade + $styleGrade`
+		
+		# give feedback to students
+		if [ $styleErrorCounter -gt 0 ]; then
+			feedback="$styleErrorCounter code style error(s). $feedback"
+		fi
+		feedback="functional: $funcGrade. structure: $structGrade. comments: $commentsGrade. codeStyle: $styleGrade. $feedback"
+		echo "$studentID,$studentName,$grade,$funcGrade,$structGrade,$commentsGrade,$styleGrade,$feedback" >> $gradebookPath
+		
+		echo "" >> $studentOutputPath
+		echo "- - - - - - Code style - - - - - -" >> $studentOutputPath
+		cat $styleResultPath >> $studentOutputPath
+	fi
+	
+	echo "> > > > > > > > > finished $studentID $studentName > > > > > > >"
+	echo ""
+done
+
+rm -f $tmpOutputPath
+rm -f $trueResultPath
+cp -f $gradebookPath $currentMainPath/grade  # backup gradebook
